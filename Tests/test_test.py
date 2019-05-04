@@ -1,6 +1,8 @@
 #REFERENCE TEST FILE - Will be deleted in future
 
 from selenium import webdriver
+import unittest
+import allure
 from time import sleep
 
 driver = webdriver.Firefox()
