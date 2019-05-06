@@ -9,6 +9,6 @@ Project env:
 
 - Selenium 3.141
 
-- PyTest
+- Unittest
 
 - Html-reports
