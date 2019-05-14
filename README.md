@@ -12,3 +12,5 @@ Project env:
 - Unittest
 
 - Html-reports
+
+Following project was created according to POM (Page Object Model).
