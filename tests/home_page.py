@@ -3,6 +3,7 @@ __author__ = 'Lukasz Kolodzinski'
 import time
 from pages.home_page import HomePage
 from tests_base.base_class import EnvironmentSetup
+from selenium.webdriver.common.by import By
 
 
 class HomePageElements(EnvironmentSetup):

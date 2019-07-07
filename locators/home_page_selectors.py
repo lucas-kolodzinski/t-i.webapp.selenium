@@ -1,7 +1,7 @@
 __author__ = 'Lucas Kolodzinski'
 
 
-class HomePageLocators():
+class HomePageLocators:
     """
         Page elements selectors for http://the-internet.herokuapp.com/
     """

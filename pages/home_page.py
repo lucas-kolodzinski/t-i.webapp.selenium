@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from locators.home_page_selectors import HomePageLocators
 
 
-class HomePage():
+class HomePage:
     """
         describing page elements for http://the-internet.herokuapp.com/
     """
