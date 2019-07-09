@@ -23,3 +23,14 @@ class FakePages:
 
         def paragraph_content(self):
             return self.driver.find_element(By.CSS_SELECTOR, FakePagesLocators.PageABtesting.paragraph).text
+
+    class PageAddRemoveElements(BaseClass):
+
+        def page_link(self):
+            return self.driver.find_element(By.LINK_TEXT, FakePagesLocators.PageAdRemoveElements.page_link)
+
+        def page_header(self):
+            return self.driver.find_element(By.CSS_SELECTOR, FakePagesLocators.PageAdRemoveElements.page_header).txt
+
+        def button(self):
+            return self.driver.find_element(By.XPATH, FakePagesLocators.PageAdRemoveElements.button)
