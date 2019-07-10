@@ -16,6 +16,6 @@ class EnvironmentSetup(unittest.TestCase):
         #print("Page title is: {}".format(self.driver.title))
 
     def tearDown(self):
-        print("Execution finished at: {}".format(self.time))
+        #print("Execution finished at: {}".format(self.time))
         self.driver.close()
         self.driver.quit()
