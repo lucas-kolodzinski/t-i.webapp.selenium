@@ -30,7 +30,10 @@ class FakePages:
             return self.driver.find_element(By.LINK_TEXT, FakePagesLocators.PageAdRemoveElements.page_link)
 
         def page_header(self):
-            return self.driver.find_element(By.CSS_SELECTOR, FakePagesLocators.PageAdRemoveElements.page_header).txt
+            return self.driver.find_element(By.TAG_NAME, FakePagesLocators.PageAdRemoveElements.page_header).text
 
         def button(self):
             return self.driver.find_element(By.XPATH, FakePagesLocators.PageAdRemoveElements.button)
+
+        def delete_button(self):
+            return self.driver.find_element(By.CLASS_NAME, FakePagesLocators.PageAdRemoveElements.delete_button)

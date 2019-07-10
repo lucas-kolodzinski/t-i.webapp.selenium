@@ -27,3 +27,6 @@ class FakePagesLocators:
 
         #xpath
         button = "/html/body/div[2]/div/div/button"
+
+        #class name
+        delete_button = "added-manually"
