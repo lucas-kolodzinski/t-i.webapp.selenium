@@ -52,6 +52,4 @@ class PageAddRemoveElements(EnvironmentSetup):
         else:
             print("Cannot click delete button")
 
-     #def test_6_check_button_against_page_back(self):
-      #  pass
 
