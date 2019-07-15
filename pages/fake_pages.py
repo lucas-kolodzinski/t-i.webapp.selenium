@@ -37,3 +37,10 @@ class FakePages:
 
         def delete_button(self):
             return self.driver.find_element(By.CLASS_NAME, FakePagesLocators.PageAdRemoveElements.delete_button)
+
+    class BasicAuth(BaseClass):
+        def correct_logged_in(self):
+            return self.driver.find_element(By.TAG_NAME, FakePagesLocators.BasicAuth.page_header).text
+
+        def incorrect_login(self):
+            return self.driver.find_element(By.TAG_NAME, FakePagesLocators.BasicAuth.text_info).text

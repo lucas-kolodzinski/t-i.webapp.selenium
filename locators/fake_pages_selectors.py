@@ -30,3 +30,12 @@ class FakePagesLocators:
 
         #class name
         delete_button = "added-manually"
+
+    class BasicAuth:
+        """ alert box with user authentication"""
+
+        # tag name
+        page_header = "h3"
+
+        #tag name
+        text_info = "body"
