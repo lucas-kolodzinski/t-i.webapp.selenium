@@ -44,3 +44,19 @@ class FakePages:
 
         def incorrect_login(self):
             return self.driver.find_element(By.TAG_NAME, FakePagesLocators.BasicAuth.text_info).text
+
+    class BrokenImages(BaseClass):
+        def page_link(self):
+            return self.driver.find_element(By.LINK_TEXT, FakePagesLocators.BrokenImages.page_link)
+
+        def page_header(self):
+            return self.driver.find_element(By.TAG_NAME, FakePagesLocators.BrokenImages.page_header).text
+
+        def first_image(self):
+            return self.driver.find_element(By.XPATH, FakePagesLocators.BrokenImages.first_image)
+
+        def second_image(self):
+            return self.driver.find_element(By.XPATH, FakePagesLocators.BrokenImages.second_image)
+
+        def third_image(self):
+            return self.driver.find_element(By.XPATH, FakePagesLocators.BrokenImages.third_image)

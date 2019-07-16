@@ -39,3 +39,17 @@ class FakePagesLocators:
 
         #tag name
         text_info = "body"
+
+    class BrokenImages:
+        """https://the-internet.herokuapp.com/broken_images"""
+
+        #link text
+        page_link = "Broken Images"
+
+        #tag name
+        page_header = "h3"
+
+        #xpath
+        first_image = "/html/body/div[2]/div/div/img[1]"
+        second_image = "/html/body/div[2]/div/div/img[2]"
+        third_image = "/html/body/div[2]/div/div/img[3]"
