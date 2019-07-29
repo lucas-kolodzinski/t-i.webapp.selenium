@@ -60,3 +60,16 @@ class FakePages:
 
         def third_image(self):
             return self.driver.find_element(By.XPATH, FakePagesLocators.BrokenImages.third_image)
+
+    class Checkboxes(BaseClass):
+        def page_link(self):
+            return self.driver.find_element(By.LINK_TEXT, FakePagesLocators.Checkboxes.page_link)
+
+        def page_header(self):
+            return self.driver.find_element(By.TAG_NAME, FakePagesLocators.Checkboxes.page_header).text
+
+        def first_checkbox(self):
+            return self.driver.find_element(By.CSS_SELECTOR, FakePagesLocators.Checkboxes.first_checkbox)
+
+        def second_checkbox(self):
+            return self.driver.find_element(By.CSS_SELECTOR, FakePagesLocators.Checkboxes.second_checkbox)

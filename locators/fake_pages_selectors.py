@@ -53,3 +53,16 @@ class FakePagesLocators:
         first_image = "/html/body/div[2]/div/div/img[1]"
         second_image = "/html/body/div[2]/div/div/img[2]"
         third_image = "/html/body/div[2]/div/div/img[3]"
+
+    class Checkboxes:
+        """https://the-internet.herokuapp.com/checkboxes"""
+
+        #link text
+        page_link = "Checkboxes"
+
+        #tag name
+        page_header = "h3"
+
+        #css_selector
+        first_checkbox = "#checkboxes > input:nth-child(1)"
+        second_checkbox = "#checkboxes > input:nth-child(3)"
