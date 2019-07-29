@@ -73,3 +73,7 @@ class FakePages:
 
         def second_checkbox(self):
             return self.driver.find_element(By.CSS_SELECTOR, FakePagesLocators.Checkboxes.second_checkbox)
+
+    class ChallangingDOM(BaseClass):
+        def page_link(self):
+            return self.driver.find_element(By.LINK_TEXT, FakePagesLocators.ChallangingDOM.page_link)

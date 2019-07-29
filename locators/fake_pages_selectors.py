@@ -66,3 +66,9 @@ class FakePagesLocators:
         #css_selector
         first_checkbox = "#checkboxes > input:nth-child(1)"
         second_checkbox = "#checkboxes > input:nth-child(3)"
+
+    class ChallangingDOM:
+        """https://the-internet.herokuapp.com/challenging_dom"""
+
+        #link text
+        page_link = "Challenging DOM"
