@@ -77,3 +77,6 @@ class FakePages:
     class ChallangingDOM(BaseClass):
         def page_link(self):
             return self.driver.find_element(By.LINK_TEXT, FakePagesLocators.ChallangingDOM.page_link)
+
+        def page_header(self):
+            return self.driver.find_element(By.TAG_NAME, FakePagesLocators.ChallangingDOM.page_header).text

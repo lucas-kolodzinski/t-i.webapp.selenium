@@ -72,3 +72,6 @@ class FakePagesLocators:
 
         #link text
         page_link = "Challenging DOM"
+
+        #tag_name
+        page_header = "h3"
