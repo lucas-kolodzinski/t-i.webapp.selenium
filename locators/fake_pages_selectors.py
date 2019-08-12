@@ -75,3 +75,6 @@ class FakePagesLocators:
 
         #tag_name
         page_header = "h3"
+
+        #id
+        canvas = "canvas"

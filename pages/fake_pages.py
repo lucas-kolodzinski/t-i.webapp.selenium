@@ -80,3 +80,6 @@ class FakePages:
 
         def page_header(self):
             return self.driver.find_element(By.TAG_NAME, FakePagesLocators.ChallangingDOM.page_header).text
+
+        def canvas(self):
+            return self.driver.find_element(By.ID, FakePagesLocators.ChallangingDOM.canvas)
