@@ -78,3 +78,15 @@ class FakePagesLocators:
 
         #id
         canvas = "canvas"
+
+    class ContextMenu:
+        """https://the-internet.herokuapp.com/context_menu"""
+
+        #link text
+        page_link = "Context Menu"
+
+        #tag_name
+        page_header = "h3"
+
+        #id
+        menu = "hot-spot"

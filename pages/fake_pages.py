@@ -83,3 +83,13 @@ class FakePages:
 
         def canvas(self):
             return self.driver.find_element(By.ID, FakePagesLocators.ChallangingDOM.canvas)
+
+    class ContextMenu(BaseClass):
+        def page_link(self):
+            return self.driver.find_element(By.LINK_TEXT, FakePagesLocators.ContextMenu.page_link)
+
+        def page_header(self):
+            return self.driver.find_element(By.TAG_NAME, FakePagesLocators.ContextMenu.page_header).text
+
+        def menu_area(self):
+            return self.driver.find_element(By.ID, FakePagesLocators.ContextMenu.menu)
