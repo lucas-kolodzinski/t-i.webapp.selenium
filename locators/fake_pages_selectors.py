@@ -90,3 +90,14 @@ class FakePagesLocators:
 
         #id
         menu = "hot-spot"
+
+    class DragAndDrop:
+        """https://the-internet.herokuapp.com/drag_and_drop"""
+        #link text
+        page_link = "Drag and Drop"
+        #tag name
+        page_header = "h3"
+        #object_a id
+        object_a = "column-a"
+        #object_b id
+        object_b = "column-b"

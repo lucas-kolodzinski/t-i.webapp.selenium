@@ -93,3 +93,16 @@ class FakePages:
 
         def menu_area(self):
             return self.driver.find_element(By.ID, FakePagesLocators.ContextMenu.menu)
+
+    class DragAndDrop(BaseClass):
+        def page_link(self):
+            return self.driver.find_element(By.LINK_TEXT, FakePagesLocators.DragAndDrop.page_link)
+
+        def page_header(self):
+            return self.driver.find_element(By.TAG_NAME, FakePagesLocators.DragAndDrop.page_header).text
+
+        def object_a(self):
+            return self.driver.find_element(By.ID, FakePagesLocators.DragAndDrop.object_a)
+
+        def object_b(self):
+            return self.driver.find_element(By.ID, FakePagesLocators.DragAndDrop.object_b)
